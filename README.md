@@ -1,36 +1,36 @@
 # inventory
 Run this application on docker  
   docker run -it -p 8888:8888 -v 'C:/work/cympire/python/:/root/python' floydhub/dl-docker:cpu bash  <br>
-  in adision i install flaks and set 
-  $ export FLASK_ENV=development
-  $ export FLASK_APP=app.py 
-  for more info visit https://medium.com/@onejohi/building-a-simple-rest-api-with-python-and-flask-b404371dc699
+  in adision i install flaks and set <br>
+  $ export FLASK_ENV=development <br>
+  $ export FLASK_APP=app.py <br>
+  for more info visit https://medium.com/@onejohi/building-a-simple-rest-api-with-python-and-flask-b404371dc699  <br>
+  <br>  
+  $>flask run --host=0.0.0.0 --port=8888  <br>
+  <br>
+  then you can perform calls like: <br>
+  get category list by store id <br>
+  http://localhost:8888/category/store/30  <br>
+  http://localhost:8888/category/store/1   <br>
+  <br>
+  getting items median price per category id <br>
+  http://localhost:8888/category/median/33 <br>
+  http://localhost:8888/category/median/1 <br>
+  <br>
+  get item total inventory by item name: <br>
+  http://localhost:8888/item/bisli <br>
+  <br>
+  <br>
+  for web test , install request <br>
+  pip install requests <br>
+  for more info visit https://www.geeksforgeeks.org/get-post-requests-using-python/ <br>
+  <br>
+  for running web test: <br>
+  from comand line <br>
+  cd python <br>
+  python testWeb.py <br>
   
-  $>flask run --host=0.0.0.0 --port=8888
-  
-  then you can perform calls like:
-  get category list by store id
-  http://localhost:8888/category/store/30
-  http://localhost:8888/category/store/1
-  
-  getting items median price per category id
-  http://localhost:8888/category/median/33
-  http://localhost:8888/category/median/1
-  
-  get item total inventory by item name:
-  http://localhost:8888/item/bisli
-  
-  
-  for web test , install request 
-  pip install requests 
-  for more info visit https://www.geeksforgeeks.org/get-post-requests-using-python/
-  
-  for running web test:
-  from comand line 
-  cd python
-  python testWeb.py
-  
-  for regular testing:
-  cd python 
-  python testInventory.py
+  for regular testing: <br>
+  cd python <br>
+  python testInventory.py <br>
   
