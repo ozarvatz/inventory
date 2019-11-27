@@ -28,9 +28,9 @@ Run this application on docker
   for running web test: <br>
   from comand line <br>
   cd python <br>
-  python testWeb.py <br>
+  python ./testWeb.py <br>
   
   for regular testing: <br>
   cd python <br>
-  python testInventory.py <br>
+  python ./testInventory.py <br>
   
