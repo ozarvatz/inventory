@@ -21,6 +21,16 @@ Run this application on docker
   http://localhost:8888/item/bisli
   
   
+  for web test , install request 
+  pip install requests 
+  for more info visit https://www.geeksforgeeks.org/get-post-requests-using-python/
   
+  for running web test:
+  from comand line 
+  cd python
+  python testWeb.py
   
+  for regular testing:
+  cd python 
+  python testInventory.py
   
