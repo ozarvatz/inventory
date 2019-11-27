@@ -1,6 +1,6 @@
 # inventory
 Run this application on docker  
-  docker run -it -p 8888:8888 -v 'C:/work/cympire/python/:/root/python' floydhub/dl-docker:cpu bash
+  docker run -it -p 8888:8888 -v 'C:/work/cympire/python/:/root/python' floydhub/dl-docker:cpu bash  <br>
   in adision i install flaks and set 
   $ export FLASK_ENV=development
   $ export FLASK_APP=app.py 
